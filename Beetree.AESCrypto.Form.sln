@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetree.AESCrypto.Form", "Beetree.AESCrypto.Form\Beetree.AESCrypto.Form.csproj", "{BBBD5767-0F59-4649-BF35-18ABDF915C1A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{54FEFB3D-16D7-4F49-80A6-E4D77E447583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetree.AESCrypto.Business", "Beetree.AESCrypto.Business\Beetree.AESCrypto.Business.csproj", "{A6C43094-F615-4C8B-81C8-6EB71C5F3935}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetree.AESCrypto.Business", "src\app\Beetree.AESCrypto.Business\Beetree.AESCrypto.Business.csproj", "{A6C43094-F615-4C8B-81C8-6EB71C5F3935}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetree.AESCrypto.Business.Test", "Beetree.AESCrypto.Business.Test\Beetree.AESCrypto.Business.Test.csproj", "{7B279B3A-390C-4D6E-8CCE-71D998A8ED3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetree.AESCrypto.Form", "src\app\Beetree.AESCrypto.Form\Beetree.AESCrypto.Form.csproj", "{BBBD5767-0F59-4649-BF35-18ABDF915C1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetree.AESCrypto.Business.Integration.Test", "Beetree.AESCrypto.Integration.Test\Beetree.AESCrypto.Business.Integration.Test.csproj", "{41615E57-3465-4185-8CED-53AF1AED0660}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4DCCDB01-25F4-4356-8267-E464B9070B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetree.AESCrypto.Business.Test", "src\test\Beetree.AESCrypto.Business.Test\Beetree.AESCrypto.Business.Test.csproj", "{7B279B3A-390C-4D6E-8CCE-71D998A8ED3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetree.AESCrypto.Business.Integration.Test", "src\test\Beetree.AESCrypto.Integration.Test\Beetree.AESCrypto.Business.Integration.Test.csproj", "{41615E57-3465-4185-8CED-53AF1AED0660}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +23,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|x86.ActiveCfg = Debug|x86
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|x86.Build.0 = Debug|x86
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|Any CPU.ActiveCfg = Release|x86
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|Mixed Platforms.Build.0 = Release|x86
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|x86.ActiveCfg = Release|x86
-		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|x86.Build.0 = Release|x86
 		{A6C43094-F615-4C8B-81C8-6EB71C5F3935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A6C43094-F615-4C8B-81C8-6EB71C5F3935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6C43094-F615-4C8B-81C8-6EB71C5F3935}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -39,6 +33,16 @@ Global
 		{A6C43094-F615-4C8B-81C8-6EB71C5F3935}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A6C43094-F615-4C8B-81C8-6EB71C5F3935}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A6C43094-F615-4C8B-81C8-6EB71C5F3935}.Release|x86.ActiveCfg = Release|Any CPU
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|x86.ActiveCfg = Debug|x86
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Debug|x86.Build.0 = Debug|x86
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|Any CPU.ActiveCfg = Release|x86
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|Mixed Platforms.Build.0 = Release|x86
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|x86.ActiveCfg = Release|x86
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A}.Release|x86.Build.0 = Release|x86
 		{7B279B3A-390C-4D6E-8CCE-71D998A8ED3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7B279B3A-390C-4D6E-8CCE-71D998A8ED3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B279B3A-390C-4D6E-8CCE-71D998A8ED3F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -62,5 +66,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6C43094-F615-4C8B-81C8-6EB71C5F3935} = {54FEFB3D-16D7-4F49-80A6-E4D77E447583}
+		{BBBD5767-0F59-4649-BF35-18ABDF915C1A} = {54FEFB3D-16D7-4F49-80A6-E4D77E447583}
+		{7B279B3A-390C-4D6E-8CCE-71D998A8ED3F} = {4DCCDB01-25F4-4356-8267-E464B9070B8C}
+		{41615E57-3465-4185-8CED-53AF1AED0660} = {4DCCDB01-25F4-4356-8267-E464B9070B8C}
 	EndGlobalSection
 EndGlobal
