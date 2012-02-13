@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GenerateSchema.cs" />
+    <Compile Include="ProductRepository_Fixture.cs" />
     <Compile Include="SimpleAESTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

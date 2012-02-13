@@ -9,7 +9,7 @@
     <property name="FirstName"/>
     <property name="LastName"/>
     <property name="SortCode"/>
-    <property name="AccountNumber"/>
+    <property name="AccountNumber" type="Beetree.AESCrypto.Business.TypeValues.EncryptedStringUserType, Beetree.AESCrypto.Business"/>
     <property name="Amount"/>
   </class>
 </hibernate-mapping>

@@ -7,11 +7,11 @@ namespace Beetree.AESCrypto.Business.Domain
 {
     public class PaymentAttempt
     {
-        public Guid Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string SortCode { get; set; }
-        public string AccountNumber { get; set; }
-        public decimal Amount { get; set; }
+        public virtual Guid Id { get; set; }
+        public virtual string FirstName { get; set; }
+        public virtual string LastName { get; set; }
+        public virtual string SortCode { get; set; }
+        public virtual string AccountNumber { get; set; }
+        public virtual decimal Amount { get; set; }
     }
 }

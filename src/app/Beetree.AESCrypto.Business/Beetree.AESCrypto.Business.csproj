@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\ThirdParty\lib\nhibernate\NHibernate.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,9 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\IPaymentAttemptRepository.cs" />
     <Compile Include="Domain\PaymentAttempt.cs" />
+    <Compile Include="Repositories\NHibernateHelper.cs" />
+    <Compile Include="Repositories\PaymentAttemptRepository.cs" />
     <Compile Include="SimpleAES.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypeValues\EncryptedString.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mappings\PaymentAttempt.hbm.xml" />
